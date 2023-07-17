@@ -88,6 +88,28 @@ main{
     color:rgba(240, 94, 42, 0.985); ;
     font-weight: 700px;
 }
+.fex-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.fex-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #ff900e;
+    text-align: center;
+    padding: 30px;
+   
+}
+.fex-card-container .card-tittle{
+    font-size: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
+.fex-card-container .card-stats{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom:10px ;
+}
 
 
 
